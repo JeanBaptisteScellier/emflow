@@ -33,7 +33,7 @@
 
 **⬇️ [Installation](#installation)**
 &ensp;|&ensp;
-**📖 [Documentation](https://docs.energydatamodel.org/en/latest/)**
+**📖 [Documentation](https://docs.enflow.org/en/latest/)**
 &ensp;|&ensp;
 **🚀 [Try out now in Colab](https://colab.research.google.com/github/rebase-energy/emflow/blob/main/emflow/examples/heftcom2024/notebook.ipynb)**
 &ensp;|&ensp;
