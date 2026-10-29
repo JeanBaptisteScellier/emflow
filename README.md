@@ -10,7 +10,7 @@
     <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green.svg">
   </a>
   <a href="https://pypi.org/project/emflow/">
-    <img alt="PyPI version" src="https://img.shields.io/pypi/v/energydatamodel.svg?color=blue">
+    <img alt="PyPI version" src="https://img.shields.io/pypi/v/emflow.svg?color=blue">
   </a>
   <a href="https://dub.sh/yTqMriJ">
     <img alt="Join us on Slack" src="https://img.shields.io/badge/Join%20us%20on%20Slack-%234A154B?style=flat&logo=slack&logoColor=white">
