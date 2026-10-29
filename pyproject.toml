@@ -24,7 +24,7 @@ dependencies = [
 [project.urls]
 Homepage = "https://emflow.org"
 Repository = "https://github.com/rebase-energy/emflow"
-Documentation = "https://docs.emflow.org/en/latest"
+Documentation = "https://docs.enflow.org/en/latest"
 
 # Make the ``rb://`` scheme discoverable by fsspec without an explicit
 # ``import emflow`` — same mechanism huggingface_hub uses for ``hf://``.
