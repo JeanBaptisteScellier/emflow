@@ -22,7 +22,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://emflow.org"
+Homepage = "https://enflow.org"
 Repository = "https://github.com/rebase-energy/emflow"
 Documentation = "https://docs.enflow.org/en/latest"
 

@@ -61,7 +61,7 @@ $$
 | Module         | Components     |
 | :----          | :----            |
 | 🔋&nbsp;`assets` | All energy asset and concept components defined by [EnergyDataModel](https://github.com/rebase-energy/EnergyDataModel) |
-| 🗄️&nbsp;`data` | [`Field`](https://docs.enflow.org/en/latest/data/field.html), [`Dataset`](https://docs.enflow.org/en/latest/data/dataset.html), [`DataPortal`](https://docs.enflow.org/en/latest/data/portal.html) — point-in-time data access with availability semantics (leak-proof by construction) |
+| 🗄️&nbsp;`data` | [`Field`](https://docs.enflow.org/en/latest/data/field.html), [`Dataset`](https://docs.enflow.org/en/latest/data/dataset.html), [`DataFeed`](https://docs.enflow.org/en/latest/data/feed.html) — point-in-time data access with availability semantics (leak-proof by construction) |
 | 🧩&nbsp;`problems` | [`Problem`](https://docs.enflow.org/en/latest/problems/problem.html), [`IssueSchedule`](https://docs.enflow.org/en/latest/problems/schedule.html), [`Objective`](https://docs.enflow.org/en/latest/problems/objective.html), metrics ([pinball, MAE, RMSE, peak timing, trading revenue](https://docs.enflow.org/en/latest/problems/metrics.html)) |
 | 🌍&nbsp;`envs` | [`ForecastEnv`](https://docs.enflow.org/en/latest/envs/forecast.html), [`TradingEnv`](https://docs.enflow.org/en/latest/envs/trading.html) — rolling-origin evaluation on the gymnasium API |
 | 🧮&nbsp;`features` | [`Lag`, `Rolling`, `ForecastField`, `Calendar`](https://docs.enflow.org/en/latest/features/spec.html) — declarative, point-in-time-correct feature specs |
@@ -107,7 +107,7 @@ print(result.rank_against(problem))          # place on the official 2024 leader
 ```
 
 Every observation a model sees is served through the point-in-time
-[`DataPortal`](https://docs.enflow.org/en/latest/data/portal.html), so
+[`DataFeed`](https://docs.enflow.org/en/latest/data/feed.html), so
 look-ahead leakage is impossible by construction — which is what makes the
 scores trustworthy for agent benchmarking. Untrusted submissions are scored
 with the [`Verifier`](https://docs.enflow.org/en/latest/run/verifier.html)
